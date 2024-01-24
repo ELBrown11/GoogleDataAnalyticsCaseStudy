@@ -14,3 +14,6 @@ The execution of each step enabled me to find key insights for answering the bus
 * Microsoft Excel
 * Google Colab
 * DBeaver 
+
+
+Still working on the Share and Act step of this process.
