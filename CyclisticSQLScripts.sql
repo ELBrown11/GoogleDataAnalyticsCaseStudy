@@ -16,10 +16,15 @@ FROM processed_cyclistic
 GROUP BY member_casual
 
 
--- average ride_length for causual members
-SELECT AVG(ride_length) AS avg_ridelength
+-- average ride_length for casual users
+SELECT ROUND((AVG(ride_length)/60),0) as avg_ridelength
 FROM processed_cyclistic 
 WHERE member_casual = 'casual';
+
+-- average ride_length for members
+SELECT ROUND((AVG(ride_length)/60),0) AS avg_ridelength
+FROM processed_cyclistic 
+WHERE member_casual = 'member';
 
 -- types of user and there rideable_type
 SELECT rideable_type, count(rideable_type) as num_of_users
