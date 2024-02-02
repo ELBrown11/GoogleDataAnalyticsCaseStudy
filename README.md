@@ -12,4 +12,4 @@ In this case study, I acted as a junior data analyst within the marketing analys
 * DBeaver 
 
 
-Still working on the Share and Act step of this process.
+Share and Act steps of this process in progress!
