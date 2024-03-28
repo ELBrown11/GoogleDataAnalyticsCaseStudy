@@ -4,12 +4,14 @@ In this case study, I acted as a junior data analyst within the marketing analys
 
 # Languages & Libraries
 * languages: python, MySQL
-* libraries: pandas, datetime,
+* libraries: pandas, datetime
 
 # Tools & Software
 * Microsoft Excel
 * Google Colab
-* DBeaver 
+* DBeaver
+* Power BI
+* Canva
 
 
 Share and Act steps of this process in progress!
